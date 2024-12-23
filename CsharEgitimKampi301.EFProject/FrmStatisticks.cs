@@ -45,7 +45,9 @@ namespace CsharEgitimKampi301.EFProject
                 var maxPrice=db.Location.Max(x=>x.Price);
             lblMaxPriceLocation.Text=db.Location.Where(x=>x.Price==maxPrice).Select(y=>y.City).FirstOrDefault().ToString();
             var guideIdByNameAysegulCinar=db.Guide.Where(x=>x.GuideName=="Ayşegül"&& x.GuideSurname=="Çınar").Select(y=>y.GuideId).FirstOrDefault().ToString();
-               lblAyşegülCınarLocationCount.Text=db.Location.Where(x=>x.GuideId==guideIdByNameAysegulCinar).Count().ToString();
+              
+            
+            lblAyşegülCınarLocationCount.Text=db.Location.Where(x=>x.GuideId==guideIdByNameAysegulCinar).Count().ToString();
                 
 
                 
