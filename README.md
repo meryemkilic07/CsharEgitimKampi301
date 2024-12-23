@@ -12,3 +12,5 @@ Lokasyon sayısını, toplam kapasiteyi, rehber sayısını ve ortalama kapasite
 - Roma Turistik şehrinin rehber bilgilerini görüntüler.
 - En yüksek kapasiteye ve en yüksek fiyata sahip lokasyonların şehir isimlerini gösterir.
 - Belirli bir rehberin yönettiği lokasyon sayısını görüntüler.
+- ## Ekran Görüntüsü -
+![Ekran görüntüsü 2024-12-23 211108](https://github.com/user-attachments/assets/3df79330-fb91-42b4-8dfb-e011b70dfbbc)
